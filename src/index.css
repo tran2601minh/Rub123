@@ -1,0 +1,97 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* outline: 0; */
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem !important;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-size: 3.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-size: 2.4rem;
+  font-family: "Open Sans", sans-serif;
+}
+h4 {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+h5 {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 1.6rem;
+  font-family: "HK Grotesk Light", "Open Sans", sans-serif;
+}
+p.subtitle-1 {
+  font-size: 1.4rem;
+  font-family: "HK Grotesk Light", "Open Sans", sans-serif;
+}
+p.subtitle-2 {
+  font-size: 1.2rem;
+  font-family: "HK Grotesk Light", "Open Sans", sans-serif;
+}
+
+.clickable-text {
+  cursor: pointer;
+  color: aquamarine;
+}
+.clickable-text:hover {
+  color: cadetblue;
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logo-text {
+  font-family: "High Cruiser", sans-serif;
+  color: #fff;
+}
+.logo-text.black {
+  color: #000;
+}
+.logo-text > span {
+  color: #0f7f3a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "High Cruiser";
+  src: url(./resource/High-Cruiser-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "HK Grotesk Light";
+  src: url(./resource/HKGrotesk-Light.ttf);
+}

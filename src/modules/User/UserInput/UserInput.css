@@ -1,0 +1,93 @@
+.userschedule-page {
+  padding: 60px 80px;
+}
+.userschedule-page h1 {
+  color: #0f7f3a;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.userschedule-page .schedule {
+  margin: 20px 60px;
+  padding: 10px 30px;
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.userschedule-page .schedule .exercise-input {
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  width: 10rem;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  transition: width 2s;
+}
+.userschedule-page .schedule .exercise-input.active {
+  width: auto;
+}
+
+.userschedule-page .schedule .exercise {
+  font-weight: bold;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.userschedule-page .schedule .exercise .img-container {
+  width: 10rem;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+}
+.userschedule-page .schedule .exercise .img-container img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.userschedule-page .schedule .exercise-input form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  column-gap: 30px;
+  margin-top: -20px;
+}
+.userschedule-page .schedule .exercise-input form label {
+  font-size: 1.2rem;
+  font-family: "HK Grotesk Light", "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+.userschedule-page .schedule .exercise-input form label input {
+  display: block;
+  font-size: 1.2rem;
+  font-family: "HK Grotesk Light", "Open Sans", sans-serif;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-45 {
+  width: 45%;
+}
+.w-100 {
+  width: 90%;
+}

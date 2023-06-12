@@ -1,0 +1,42 @@
+.userschedule-page {
+  padding: 60px 80px;
+}
+.userschedule-page h1 {
+  color: #0f7f3a;
+  margin-bottom: 30px;
+}
+
+.userschedule-page .schedule {
+  margin: 20px 60px;
+  padding: 10px 30px;
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.userschedule-page .schedule .exercise {
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.userschedule-page .schedule .exercise .img-container {
+  width: 10rem;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+}
+.userschedule-page .schedule .exercise .img-container img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

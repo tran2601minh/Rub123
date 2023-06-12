@@ -1,0 +1,76 @@
+.blog-page {
+  padding: 40px 80px;
+}
+
+.blog-page h1 {
+  color: #0f7f3a;
+}
+.blog-page > p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.blog-page .articles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 40px 0;
+}
+.blog-page .articles-container article {
+  padding: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+.blog-page .articles-container article:hover {
+  box-shadow: 0 0 3pt #777;
+}
+.blog-page article > img {
+  object-fit: cover;
+  width: 100%;
+  height: 15rem;
+}
+.blog-page article > .tag {
+  color: #0f7f3a;
+}
+.blog-page article > .tag:hover {
+  text-decoration: underline;
+}
+.blog-page article > .date {
+  color: #777;
+}
+
+.blog-page > h4 {
+  text-align: center;
+  color: #777;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.blog-page .exercises-container {
+  text-align: center;
+}
+.blog-page .exercises-container .exercises-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+.blog-page .exercises-container .exercises-list > img {
+  width: 4rem;
+  height: auto;
+  cursor: pointer;
+}
+.blog-page .exercises-container .exercises-list .exercise {
+  cursor: pointer;
+}
+.blog-page .exercises-container .exercises-list .exercise:hover {
+  box-shadow: 0 0 3pt #777;
+}
+.blog-page .exercises-container .exercises-list .exercise h5 {
+  margin: 10px 0;
+}

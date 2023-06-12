@@ -1,0 +1,31 @@
+.slidedown {
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+.slidedownBtn {
+  margin: -1px;
+  border-radius: 0.5rem;
+  border: solid 1px lightgray;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.slidedownBtn.expanded img {
+  transform: rotate(180deg);
+}
+
+.slidedownBody {
+  box-sizing: border-box;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.slidedownBody.expanded {
+  max-height: 500px;
+}
+.slidedownBody div {
+  padding: 1rem;
+}

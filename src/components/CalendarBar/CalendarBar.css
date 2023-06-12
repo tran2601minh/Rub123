@@ -1,0 +1,36 @@
+.calendar-bar {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.calendar-bar button > img {
+  width: 15px;
+  height: auto;
+  cursor: pointer;
+  filter: invert(48%) sepia(20%) saturate(15%) hue-rotate(80deg) brightness(91%)
+    contrast(81%);
+}
+
+.calendar-bar .calendar-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.calendar-bar .calendar-list li {
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  border: 1px #fff solid;
+}
+.calendar-bar .calendar-list li:hover {
+  border: 1px #aaa solid;
+}
+.calendar-bar .calendar-list li.active {
+  border: 1px #777 solid;
+}
